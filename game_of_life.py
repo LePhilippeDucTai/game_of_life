@@ -1,7 +1,7 @@
 import numpy as np
 import scipy.signal as sig
 
-KERNEL = np.array([[1, 1, 1], [1, 0, 1], [1, 1, 1]])
+from constants import KERNEL
 
 
 class GameOfLife:
