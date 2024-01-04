@@ -12,7 +12,7 @@ def action(screen: pygame.Surface, game: GameOfLife):
 
 def initialize_game():
     game = GameOfLife()
-    game.generate_random(X_DIM, Y_DIM, 0.1)
+    game.generate_random(X_DIM, Y_DIM, 0.2)
     return game
 
 
