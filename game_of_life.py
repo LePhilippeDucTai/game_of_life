@@ -13,8 +13,7 @@ class GameOfLife:
 
     def update(self):
         conv = sig.convolve(self.matrix, KERNEL, mode="same")
-        rules = ((self.matrix == 1) & (conv == 2)) | (conv == 3)
-        self.matrix = np.where(rules, 1, 0)
+        self.matrix = (((self.matrix == 1) & (conv == 2)) | (conv == 3)).astype("int")
 
 
 if __name__ == "__main__":
