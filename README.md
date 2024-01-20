@@ -1,6 +1,6 @@
-# Workspace Description
+# Project Description
 
-This workspace contains the Python code for the Game of Life project. The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway. It is a zero-player game that simulates the evolution of a population of cells based on a set of rules.
+This project contains the Python code for the Game of Life simulation. The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway. It is a zero-player game that simulates the evolution of a population of cells based on a set of rules.
 
 ## Instructions
 
