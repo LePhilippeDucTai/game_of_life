@@ -34,7 +34,7 @@ def event_quit():
 
 def mainloop(action: callable, game, fps: int):
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
-    pygame.display.set_caption("Pygame Matrix Example")
+    pygame.display.set_caption("Game of Life simulation")
     clock = pygame.time.Clock()
     while True:
         event_quit()
